@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/interactdb.dir/src/Document.cpp.o"
+  "CMakeFiles/interactdb.dir/src/Document.cpp.o.d"
   "CMakeFiles/interactdb.dir/src/Membre.cpp.o"
   "CMakeFiles/interactdb.dir/src/Membre.cpp.o.d"
   "libinteractdb.a"

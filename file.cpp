@@ -1,4 +1,5 @@
 #include "./Model/inc/Membre.hpp"
+#include "./Model/inc/Document.hpp"
 namespace View{
    class UI{
       private :
@@ -25,7 +26,7 @@ namespace View{
 namespace Controller{
     class parse{
       private :
-         std::vector<Person> cache_membre;  
+         std::vector<Person> cache;  
       public :
          parse(View::UI* instance_UI,Membre* interface){
             instance_UI = new View::UI() ;
@@ -33,9 +34,9 @@ namespace Controller{
             switch (instance_UI->send_value())
             {
                   case 1 :
-                        cache_membre = interface->fetch_data();
-                        for (int i = 0 ; i<cache_membre.size(); i++) 
-                        std::cout << "ID: " << cache_membre[i].id << ", Name: " << cache_membre[i].name << ", age= "<< cache_membre[i].age << std::endl;
+                        cache = interface->fetch_data();
+                        for (int i = 0 ; i<cache.size(); i++) 
+                        std::cout << "ID: " << cache[i].id << ", Name: " << cache[i].name << ", age= "<< cache[i].age << std::endl;
                      break;
                   case 2 :
                         instance_UI->output(interface->update_data(6,"Jules cesar",23));
@@ -53,7 +54,7 @@ namespace Controller{
                delete interface;
             }
             ~parse(){
-               cache_membre.clear();
+               cache.clear();
                
             }
            // instance_db->store(instance_UI->send_value());
@@ -62,8 +63,13 @@ namespace Controller{
 }
 int main(){
 
-   Membre* test;
-   View::UI* instance_UI;
-   Controller::parse lol(instance_UI,test);
+   // Membre* test;
+   // View::UI* instance_UI;
+   // Controller::parse lol(instance_UI,test);
+   Document* test = new Document;
+   test->update_data(4,"les Compte de monte cristo");
+   std::vector<Doc> cache = test->fetch_data();
+   for (int i = 0 ; i<cache.size(); i++) 
+                        std::cout << "ID: " << cache[i].id << ", Name: " << cache[i].title << std::endl;
    return 0;
 }

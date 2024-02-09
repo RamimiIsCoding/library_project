@@ -130,6 +130,30 @@ interactdb/fast:
 	cd /home/manohy/project_VS/library_project/build && $(MAKE) $(MAKESILENT) -f Model/CMakeFiles/interactdb.dir/build.make Model/CMakeFiles/interactdb.dir/build
 .PHONY : interactdb/fast
 
+src/Document.o: src/Document.cpp.o
+.PHONY : src/Document.o
+
+# target to build an object file
+src/Document.cpp.o:
+	cd /home/manohy/project_VS/library_project/build && $(MAKE) $(MAKESILENT) -f Model/CMakeFiles/interactdb.dir/build.make Model/CMakeFiles/interactdb.dir/src/Document.cpp.o
+.PHONY : src/Document.cpp.o
+
+src/Document.i: src/Document.cpp.i
+.PHONY : src/Document.i
+
+# target to preprocess a source file
+src/Document.cpp.i:
+	cd /home/manohy/project_VS/library_project/build && $(MAKE) $(MAKESILENT) -f Model/CMakeFiles/interactdb.dir/build.make Model/CMakeFiles/interactdb.dir/src/Document.cpp.i
+.PHONY : src/Document.cpp.i
+
+src/Document.s: src/Document.cpp.s
+.PHONY : src/Document.s
+
+# target to generate assembly for a file
+src/Document.cpp.s:
+	cd /home/manohy/project_VS/library_project/build && $(MAKE) $(MAKESILENT) -f Model/CMakeFiles/interactdb.dir/build.make Model/CMakeFiles/interactdb.dir/src/Document.cpp.s
+.PHONY : src/Document.cpp.s
+
 src/Membre.o: src/Membre.cpp.o
 .PHONY : src/Membre.o
 
@@ -163,6 +187,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... interactdb"
+	@echo "... src/Document.o"
+	@echo "... src/Document.i"
+	@echo "... src/Document.s"
 	@echo "... src/Membre.o"
 	@echo "... src/Membre.i"
 	@echo "... src/Membre.s"

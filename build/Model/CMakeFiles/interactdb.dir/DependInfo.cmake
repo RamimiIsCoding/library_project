@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/manohy/project_VS/library_project/Model/src/Document.cpp" "Model/CMakeFiles/interactdb.dir/src/Document.cpp.o" "gcc" "Model/CMakeFiles/interactdb.dir/src/Document.cpp.o.d"
   "/home/manohy/project_VS/library_project/Model/src/Membre.cpp" "Model/CMakeFiles/interactdb.dir/src/Membre.cpp.o" "gcc" "Model/CMakeFiles/interactdb.dir/src/Membre.cpp.o.d"
   )
 
