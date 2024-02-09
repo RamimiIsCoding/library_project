@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdbconnect.a CMakeFiles/dbconnect.dir/dbconnect.cpp.o
+/usr/bin/ranlib libdbconnect.a

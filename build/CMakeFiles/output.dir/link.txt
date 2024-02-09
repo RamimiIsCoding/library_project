@@ -1,0 +1,1 @@
+g++ CMakeFiles/output.dir/file.cpp.o -o output  Model/libinteractdb.a Model/DatabaseConnection/libdbconnect.a -lsqlite3 
