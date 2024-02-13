@@ -1,2 +1,0 @@
-/usr/bin/ar qc libinteractdb.a CMakeFiles/interactdb.dir/src/Membre.cpp.o CMakeFiles/interactdb.dir/src/Document.cpp.o
-/usr/bin/ranlib libinteractdb.a

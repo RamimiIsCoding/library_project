@@ -1,9 +1,0 @@
-/home/manohy/project_VS/library_project/build/CMakeFiles/output.dir
-/home/manohy/project_VS/library_project/build/CMakeFiles/edit_cache.dir
-/home/manohy/project_VS/library_project/build/CMakeFiles/rebuild_cache.dir
-/home/manohy/project_VS/library_project/build/Model/CMakeFiles/interactdb.dir
-/home/manohy/project_VS/library_project/build/Model/CMakeFiles/edit_cache.dir
-/home/manohy/project_VS/library_project/build/Model/CMakeFiles/rebuild_cache.dir
-/home/manohy/project_VS/library_project/build/Model/DatabaseConnection/CMakeFiles/dbconnect.dir
-/home/manohy/project_VS/library_project/build/Model/DatabaseConnection/CMakeFiles/edit_cache.dir
-/home/manohy/project_VS/library_project/build/Model/DatabaseConnection/CMakeFiles/rebuild_cache.dir

@@ -70,6 +70,6 @@ int main(){
    test->update_data(4,"les Compte de monte cristo");
    std::vector<Doc> cache = test->fetch_data();
    for (int i = 0 ; i<cache.size(); i++) 
-                        std::cout << "ID: " << cache[i].id << ", Name: " << cache[i].title << std::endl;
+      std::cout << "ID: " << cache[i].id << ", Name: " << cache[i].title << std::endl;
    return 0;
 }
